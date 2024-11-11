@@ -1,0 +1,9 @@
+#1. SpringBoot提供了2种配置文件类型：properteis 和 yml/yaml
+#2. 默认配置文件名称：application
+#3. 在同一级目录入如果三类文件共存，优先级为：properties > yml > yaml
+#此处为了和nacos常用的配置文件对齐,选用yml
+spring:
+  application:
+    name: xxxApp
+server:
+  port: 8080
